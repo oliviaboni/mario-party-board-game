@@ -50,7 +50,7 @@ class Rules extends Component {
           </li>
           <li>
             <strong>King Boo’s corner: </strong>
-            Take one team’s minigame card; sit out next turn.
+            Take one team’s coin; sit out next turn.
           </li>
           <li>
             <strong>Store: </strong>
@@ -62,7 +62,7 @@ class Rules extends Component {
           </li>
           <li>
             <strong>Battle spaces: </strong>
-            4 player minigame in which winner steals card from loser.
+            4 player minigame in which winner steals coin from loser.
           </li>
           <li>
             <strong>Duel spaces: </strong>

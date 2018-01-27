@@ -1,0 +1,295 @@
+{
+  "teams": [
+    {
+      "name": "The Plumbers",
+      "image": "plumbers.png"
+    },
+    {
+      "name": "The Mushroom People",
+      "subtitle": "cool hats, yo",
+      "image": "mushroom_people.png"
+    },
+    {
+      "name": "A Lizard and Some Monkeys",
+      "image": "lizard_and_monkeys.png"
+    },
+    {
+      "name": "The Helpless Princesses",
+      "subtitle": "who literally do nothing except get captured",
+      "image": "princesses.png"
+    }
+  ],
+  "minigames": {
+    "four_player": [
+      {
+        "name": "Face Lift",
+        "subtitle": "4 player",
+        "description": "Choose a player not in the minigame. Each competitor gets 10 seconds to do their best impression of the player, and the best one wins",
+        "timer": false
+      },
+      {
+        "name": "Crazy Cutters",
+        "subtitle": "4 player",
+        "description": "Each player has 60 seconds to draw an image of the group’s choosing. Best drawing wins.",
+        "timer": 60
+      },
+      {
+        "name": "Running of the Coin",
+        "subtitle": "4 player",
+        "description": "Players must work together to move a coin from one end of a room to the other in 30 seconds. No player may touch the coin with their hands, and players may not move their feet while touching the coin. Each player must “carry” the coin at least once before it reaches the end.",
+        "timer": 30
+      },
+      {
+        "name": "Move to the Music",
+        "subtitle": "4 player",
+        "description": "Pick a song everyone has heard. Players must recite lyrics from the chorus in clockwise order, one word at a time. Anyone who messes up is eliminated. Last player standing wins.",
+        "timer": false
+      },
+      {
+        "name": "Cashapult",
+        "subtitle": "4 player",
+        "description": "Everyone stands at one side of the room. Place a marker on the floor near the opposite wall. Competitors must slide or toss their coins as close to the marker as they can. At the end of the round, the player whose coin is closest wins.",
+        "timer": false
+      },
+      {
+        "name": "Avalanche!",
+        "subtitle": "4 player",
+        "description": "Roll a die to determine who goes first. Pour some of your drink into the game glass. Roll a die to take your turn. Odd: You’re out. Drink and refill the glass. Even: Pour some of your drink into the glass and pass it and the die to the next player. If you rolled a 6 you may pass the glass and the die to any remaining player of your choosing.",
+        "timer": false
+      },
+      {
+        "name": "Word Herd",
+        "subtitle": "4 player",
+        "description": "Generate a random word. Each competitor has 1 minute to come up with as many anagrams as they can. Letters may be repeated or omitted. The player with the most anagrams wins.",
+        "timer": 60,
+        "link": "https://en.wikipedia.org/w/api.php?action=query&list=random&format=json&rnlimit=1&rnnamespace=0"
+      },
+      {
+        "name": "Slot Car Derby",
+        "subtitle": "4 player (Ride the Bus)",
+        "description": "I don't feel like explaining these rules. Google it.",
+        "timer": false
+      }
+    ],
+    "one_v_three": [
+      {
+        "name": "Paddle Battle",
+        "subtitle": "1 vs 3 (boat race)",
+        "description": "Each team (the 1 and the 3) receives one full beer. The team of three must share the beer equally, while the team of 1 must drink it solo. First team to finish their beer wins.",
+        "timer": false
+      },
+      {
+        "name": "Tightrope Treachery",
+        "subtitle": "1 vs 3",
+        "description": "One player has 30 seconds to recite the alphabet backwards, while the other three try to distract them.",
+        "timer": 30
+      },
+      {
+        "name": "Look Away",
+        "subtitle": "1 vs 3",
+        "description": "Everyone starts with their heads down. On the count of three, all players will look at another player. If anyone from the team of three is looking at the same player as the single player, they are eliminated. If the single player and a team player look at each other, the team player is eliminated. Eliminated players can still be looked at. To win, the single player must eliminate all other players after 3 rounds. Otherwise, the team of three wins.",
+        "timer": false
+      },
+      {
+        "name": "Mind Over Matter",
+        "subtitle": "1 vs 3",
+        "description": "In this 1v3 the team of three does not know who they are. Instead of using the team card pile, create a new pile of three number cards and one face card. Shuffle it and deal one card face down to each player. The player with the face card is the single player and players with the number cards make up the team. But watch out, your card may change. The team has one opportunity to view two players' cards, but after viewing them, the cards get shuffled and handed back to the players, whose identities may have switched. The three team must figure out who they are, while the single player will try to convince them he or she is on their team. Everyone has 2 minutes to reach a majority consensus. If the team of three gets it right, they win. If not or if the group cannot reach a consensus, the single player wins.",
+        "timer": 120
+      },
+      {
+        "name": "Lights Out",
+        "subtitle": "1 vs 3 (Mafia)",
+        "description": "In this 1v3 the team of three does not know who they are. Instead of using the team card pile, create a new pile of three number cards and one face card. Shuffle it and deal one card face down to each player. The player with the face card is the single player and players with the number cards make up the team. The team votes to eliminate someone they suspect of being the single player. If they get it wrong, everyone closes their eyes and the single player silently kills someone. Players open their eyes and it is revealed who was eliminated. The team then has one more shot to guess the single player. If they get it right, they win. If not or if time runs out, the single player wins.",
+        "timer": 120
+      },
+      {
+        "name": "Ghost Guess",
+        "subtitle": "1 vs 3 (Two Truths and a Lie)",
+        "description": "The single player presents two true statements and one false one. The rival team must agree on which statement is the lie. If they guess right they win, guess wrong the single player wins",
+        "timer": false
+      },
+      {
+        "name": "Shoot Yer Mouth Off",
+        "subtitle": "1 vs 3",
+        "description": "Generate an obscure term and the team of three will check the definition without showing the single player. One teammate writes down a true statement about that term, while the other two make one up. They have 1 minute to come up with their statements. When time is up, they present their statements to the single player who has to guess which one is true. If they get it right, the single player wins. Otherwise, the team wins.",
+        "timer": 60,
+        "link": "https://en.wikipedia.org/w/api.php?action=query&list=random&format=json&rnlimit=1&rnnamespace=0"
+      }
+    ],
+    "two_v_two": [
+      {
+        "name": "Bobsled Race",
+        "subtitle": "2 vs 2",
+        "description": "Each team divides into feeder and drinker. The drinker must consume an entire  beer, but they cannot touch it with anything except their mouth. The feeder must feed the beer to their partner. Any spillage means an immediate 5-second timeout. First team to finish wins.",
+        "timer": false
+      },
+      {
+        "name": "Deep-Sea Divers",
+        "subtitle": "2 vs 2",
+        "description": "Each team confers briefly, and each member comes up with a story of something crazy that happened to them or that they did. Then both teams share both stories, and have to match the story to the person. If a team matches correctly, they win",
+        "timer": false
+      },
+      {
+        "name": "Picture Perfect",
+        "subtitle": "2 vs 2 (Pictionary)",
+        "description": "Each team picks one person to be the artist. The artists secretly agree on a subject to draw. Without talking or gesturing, the artists begin to draw. The first team to guess the subject wins.",
+        "timer": false
+      },
+      {
+        "name": "Crowd Cover",
+        "subtitle": "2 vs 2",
+        "description": "All teams agree on a category. Each team selects one person to be their guesser. Everyone else writes down a word or term that fits the selected category on a small piece of paper and drops it in a bowl. Without looking, guessers choose a word from the bowl and place it on their foreheads. The rest of the team provides clues as to what the word is. The guesser who says their word first wins.",
+        "timer": false
+      }
+    ],
+    "duel": [
+      {
+        "name": "Sicilian Mind Games",
+        "subtitle": "Duel",
+        "description": "Randomly choose one competitor to pour. They pour one shot of water, and one of vodka, and place one of these in front of their opponent, and one in front of themself. Their opponent has 60 seconds to choose which one to drink (and they drink the other). Whoever drinks the vodka loses.",
+        "timer": false,
+        "image": "secondary_bg.png"
+      },
+      {
+        "name": "Thumby Wars",
+        "subtitle": "Duel",
+        "description": "Longest thumb wins! Not really, just effectively.",
+        "timer": false,
+        "image": "secondary_bg.png"
+      },
+      {
+        "name": "Mini-pong",
+        "subtitle": "Duel",
+        "description": "We all know how this works. Each competitor has five attempts to sink the ball into the cup opposite them. First player to sink it wins. If neither sinks it, the round ends in a draw.",
+        "timer": false,
+        "image": "secondary_bg.png"
+      },
+      {
+        "name": "Kevin Bacon",
+        "subtitle": "Duel",
+        "description": "Generate two random Wikipedia articles. The players have two minutes to connect them with as few degrees of difference as possible. Warning: solutions may be absurd. For example, if you generate Kevin Bacon and Nascia acutellus you can connect them like so: The Nascia acutellus is a moth, whose habitat consists of wet grassy areas with sedges. Kyra Sedgwick is married to Kevin Bacon. And BOOM! That's a winner. Once time is up, the competitors share their answers. The answer with the fewest degrees of difference wins. If the players came up with the same number, everyone votes on the winner.",
+        "timer": 120,
+        "link": "https://en.wikipedia.org/w/api.php?action=query&list=random&format=json&rnlimit=2&rnnamespace=0",
+        "image": "secondary_bg.png"
+      },
+      {
+        "name": "Limbo",
+        "subtitle": "Duel",
+        "description": "Limbo under the outstretched arms of two non-competing players. Whoever can go the lowest wins.",
+        "timer": false,
+        "image": "secondary_bg.png"
+      },
+      {
+        "name": "Five Card Draw",
+        "subtitle": "Duel",
+        "description":  "Each player is dealt 5 cards. After the first draw, the players specify how many cards they want replaced and discard them. They are dealt the number of cards they requested. Then, the betting round begins. Players can bet any number of coins from 0 to 'All in' (if they're a badass). Players reveal their cards and the best hand wins - standard poker rules apply here.",
+        "timer": false,
+        "image": "secondary_bg.png"
+      }
+    ]
+  },
+  "happening": [
+    {
+      "name": "I'm beat...",
+      "description": "You’re smashed! Sit out next turn and sober up. And finish a glass of water while you’re at it, will you? Smh. Can’t take you anywhere.",
+      "image": "whomp.png"
+    },
+    {
+      "name": "Oh, my head...",
+      "description": "Wait, what just happened? This wasn’t where you were. You may be drunk, but not that drunk. Teleportation must be a thing. Swap places with a random team.",
+      "image": "magikoopa.png"
+    },
+    {
+      "name": "Mamma mia!",
+      "description": "Barf! That guy just let one loose and it’s a stinker. Who came up with these characters? Like seriously. Evacuate the area. Run back 10 spaces.",
+      "image": "wario.png"
+    },
+    {
+      "name": "Boy, oh boy...",
+      "description": "Oh god, oh man, oh god, oh man, is someone coming for your coins? Phew, no, false alarm. Take a shot to settle your nerves.",
+      "image": "goomba.png"
+    },
+    {
+      "name": "Boing!",
+      "description": "Sweet toad stool. Time for some spring action. Jump ahead 3 spaces and drink.",
+      "image": "mario.png"
+    },
+    {
+      "name": "Yippee!",
+      "description": "Speed boost! Roll another die.",
+      "image": "mario.png"
+    },
+    {
+      "name": "Let's-a-go!",
+      "description": "Found a Kart! Time for some reckless drunk driving. (Not in real life. Remember, kids, this is just a game.) Roll a die and move that many spaces until you roll an odd. Drink after every dice roll.",
+      "image": "mario_kart.png"
+    },
+    {
+      "name": "Watchit!",
+      "description": "AAAAH! Reckless drunk driver! Run back 6 spaces so you don’t get squashed. Some people, I swear…",
+      "image": "mario_kart.png"
+    },
+    {
+      "name": "Chomp!",
+      "description": "Something chomped on your leg. You broke free but were dragged back 3 spaces. Finish your drink before advancing or else lose your next turn.",
+      "image": "chain_chomp.png"
+    },
+    {
+      "name": "Wowzer!",
+      "description": "Oh no, it’s that Spiky Turtle Dude. Pick a random team to be your decoy and swap places with them. The other team takes a shot. Hehe, sweet evasion tactics, bro.",
+      "image": "bowser.png"
+    },
+    {
+      "name": "The horror.",
+      "description": "Him again?! You’re paralyzed with fear. Wimp. Roll a die. Lose your next turn until you roll even. Drink whenever you roll odd.",
+      "image": "bowser.png"
+    },
+    {
+      "name": "Yahoo!",
+      "description": "Boo! Your dreams are filled with ghosts. Adorable ghosts with big tongues and sharp teeth, that are stealing other people’s coins for you. Transport to the “BOO!” space.",
+      "image": "king_boo.png"
+    },
+    {
+      "name": "Here we go!",
+      "description": "Recite another player’s phone number without making mistakes. Move to “BOO!” if you succeed. Can’t do it? Ha! Millennials. Submit to peer pressure and do whatever the player’s team decides.",
+      "image": "king_boo.png"
+    },
+    {
+      "name": "There's MORE?!?",
+      "description": "Baddies on your tail. Run and hide until you lose them. Roll a die and move that many spaces backwards until you roll odd.",
+      "image": "goomba.png"
+    }
+  ],
+  "chance": [
+    {
+      "description": "Give you a coin and you drink."
+    },
+    {
+      "description": "Give you a coin and drink."
+    },
+    {
+      "description": "Get your coin and you drink."
+    },
+    {
+      "description": "Get your coin and drink."
+    },
+    {
+      "description": "If anyone has a skeleton key, clone it and get one for free. Otherwise, just drink."
+    },
+    {
+      "description": "Move to BOO!"
+    },
+    {
+      "description": "Move to BOO!"
+    },
+    {
+      "description": "Pick the next minigame."
+    },
+    {
+      "description": "Finish their drinks."
+    },
+    {
+      "description": "Lose a turn."
+    }
+  ]
+}

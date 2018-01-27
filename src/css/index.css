@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Avenir, sans-serif;
+  background: #002031 fixed center;
+  color: #FFF;
+}
+
+a, button {
+  text-decoration: none;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  background: none;;
+  outline: none;
+  border: none;
+}
